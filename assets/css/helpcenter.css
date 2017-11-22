@@ -1,0 +1,76 @@
+
+.helpcenter{
+  /*padding: 20px;*/
+}
+.accordion{
+  border:1px solid #c4c4c4;
+}
+.accordion > .nested-accordion {
+  cursor: pointer;
+  border-bottom: 1px solid #c4c4c4;
+}
+.nested-accordion:last-child{
+  border-bottom: none;
+}
+.comment .nested-accordion:last-child{
+
+}
+.nested-accordion h3 {
+  padding: 0 0.5em;
+  margin: 0;
+}
+.nested-accordion .comment {
+  line-height: 1.5;
+  padding-right: 0;
+}
+.nested-accordion h3 {
+  color: #fff;
+  font-size: 16px;
+}
+.comment .nested-accordion h3:before{
+  display: none;
+}
+.comment .nested-accordion h3 {
+  padding: 0.25em 1.80em;
+  color: #fba601!important;
+}
+.comment .nested-accordion h3:first-child{
+
+  border-top: 1px solid #c4c4c4;
+}
+.nested-accordion h3:before, .nested-accordion h4:before {
+  /*content: "+";*/
+  content: " " ;
+  padding-right: 0.25em;
+  color: #becbd2;
+  font-size: 1.5em;
+  font-weight: 500;
+  font-family: "Lucida Console", Monaco, monospace;
+  position: relative;
+  right: 0;
+  top: 1px;
+}
+.nested-accordion h4.no-plus::before{
+  content: none
+}
+.nested-accordion h3.selected {
+  color: #fff;
+}
+.nested-accordion h3.selected:before, .nested-accordion h4.selected:before {
+  /*content: "-";*/
+  content: " " ;
+}
+.nested-accordion .comment {
+  color: #fff;
+  border-top: none;
+}
+.nested-accordion a {
+  text-decoration: none;
+  color: #fba601;
+}
+.nested-accordion a.btn.btnb.arrow-right-btn{
+  color: #fff
+}
+.nested-accordion h3 a{
+  color: #fff;
+}

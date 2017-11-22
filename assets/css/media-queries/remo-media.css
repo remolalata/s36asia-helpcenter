@@ -1,0 +1,685 @@
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+  .panel-heading select{
+    width: 100%;
+    border: solid 1px #777;
+    color: #c4c4c4;
+    background: #333 url('../../img/caret_down.png');
+    background-repeat: no-repeat;
+    background-size: 5% 25%;
+    background-position: 97% 50%;
+    padding: 10px;
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    margin-top: -20px;
+    margin-bottom: -20px
+  }
+  .panel-heading{
+    margin-top: -5px;
+    margin-bottom: -5px
+  }
+  .promo-panel-heading{
+    margin-top: 0
+  }
+  .tab-pane .tab-info {
+    padding: 5px 8px;
+  }
+  #tab3 .lotto-desc-p {
+    padding: 0;
+    margin-left: 0;
+    margin-bottom: 15px;
+    font-size: 14px
+  }
+  #tab3 .lotto-desc {
+    padding: 0;
+    font-size: 15px;
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
+  .all-games-div li{
+    background-position: 0% 50%;
+    background-size: 4% 50%
+  }
+  .breadcrumb-inner .wallet .form-group, .breadcrumb-inner .wallet #None, .breadcrumb-inner .wallet #Noneb{
+    display: block;
+    width: 100%
+  }
+  .breadcrumb-inner .wallet select{
+    background-size: auto 100%;
+    width: 100%;
+  }
+  .wallet .datepicker{
+    display: inline-block;
+    width: 100%;
+  }
+  .acc-cont input[type=text]{
+    display: block;
+    width: 100%;
+    background: #333333;
+    border: 1px solid #4b4b4b;
+    border-radius: 3px !important;
+    padding: 6px 16px !important;
+    outline: 0;
+    color: #c4c4c4 !important;
+  }
+  .acc-info.acc-edit{
+    width: 100%;
+    padding: 8px 0px !important;
+  }
+  .account-edit .botton{
+    text-align: right
+  }
+  .lotto-header {
+     margin: 0;
+     width: 100%;
+     color: #fff;
+  }
+  .lotto-balls-wrapper{
+    padding-left: 0;
+    padding-right: 0;
+    background: -webkit-gradient(linear, left top, left bottom, from(#1e1e1e), color-stop(50%, #3f3f3f), to(#1e1e1e));
+    background: linear-gradient(#1e1e1e 0%, #3f3f3f 50%, #1e1e1e 100%);
+    padding-bottom: 40px;
+    padding-top: 20px;
+    }
+  .lotto-content{
+    margin: 0;
+    width: 100%;
+    background: transparent;
+    padding: 0 20px;
+    -webkit-box-shadow: none;
+            box-shadow: none
+  }
+  .lotto-header{
+    background: transparent
+  }
+  .ball-wrapper .ball{
+    margin: 3px !important
+  }
+  .deposit-col{
+    padding: auto;
+    width: auto;
+  }
+  .deposit-withdraw .deposit, .deposit-withdraw .withdraw{
+    border: none;
+    padding: 30px 0 10px 0;
+  }
+  .icomoon{
+      font-size: 45px;
+  }
+  .icon-bank:before{
+    content: "\e938";
+    font-size: 17px;
+    vertical-align: top;
+  }
+  .deposit-withdraw .deposit-first, .deposit-withdraw .withdraw-first{
+    border-radius: 15px 15px 0 0;
+  }
+  .deposit-withdraw .deposit-second, .deposit-withdraw .withdraw-second{
+    border-radius: 0 0 15px 15px;
+  }
+  .provider-icon {
+    top: 3px;
+  }
+  .deposit-withdraw .deposit-first li:first-child, .deposit-withdraw .withdraw-first li:first-child{
+    border-radius: 15px 0 0 0;
+  }
+  .deposit-withdraw .deposit-first li:last-child, .deposit-withdraw .withdraw-first li:last-child{
+    border-radius: 0 15px 0 0;
+  }
+  .deposit-withdraw .deposit-second li:first-child, .deposit-withdraw .withdraw-second li:first-child{
+    border-radius: 0 0 0 15px;
+  }
+  .deposit-withdraw .deposit-second li:last-child, .deposit-withdraw .withdraw-second li:last-child{
+    border-radius: 0 0 15px 0;
+  }
+  .deposit-withdraw .deposit-second, .deposit-withdraw .withdraw-second{
+    border-radius: 0 0 15px 15px;
+  }
+  .deposit-withdraw .deposit ul li, .deposit-withdraw .withdraw ul li{
+    padding: 5px 10px;
+  }
+  .deposit-info, .withdraw-info{
+    font-size: 11px;
+  }
+  .r-ads-btn {
+    width: 75px;
+    height: 30px;
+    position: absolute;
+    top: 18px;
+    left: 34px;
+  }
+  .selectid {
+    display: inline-block;
+    width: 224px;
+    background-size: 17% 100% !important;
+    margin-top: 10px;
+    margin-left: 9%
+  }
+  .r-tab2{
+    padding: 0 0 !important;
+  }
+  .ballot-result .table>thead>tr>th{
+    padding: 3px !important
+  }
+  .ballot-result th{
+    font-size: 10px
+  }
+  .lotto-res .tab-info{
+    padding: 5px 0 !important
+  }
+  .ballot-filter{
+    padding: 10px 0
+  }
+  .ballot-filter .form-inline {
+    padding: 0px;
+  }
+  .ballot-filter label {
+    padding-left: 0;
+  }
+  .ballot-filter .ballot-filter-div{
+     padding: 10px 0px 10px 0px;
+  }
+  .marquee-mobile {height: 20px !important;}
+}
+
+@media only screen and (min-width : 375px) {
+  .r-ads-btn {
+    width: 84px;
+    height: 30px;
+    position: absolute;
+    top: 20px;
+    left: 34px;
+  }
+
+  .selectid {
+    width: 268px;
+    background-size: 14% 100% !important;
+    margin-top: 10px;
+    margin-left: 8%;
+  }
+}
+
+@media only screen and (min-width : 414px) {
+  .r-ads-btn {
+    width: 95px;
+    height: 30px;
+    position: absolute;
+    top: 23px;
+    left: 34px;
+  }
+
+  .selectid {
+    width: 303px;
+    background-size: 13% 100% !important;
+    margin-top: 10px;
+    margin-left: 7%;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+  .panel-heading select{
+    width: 100%
+  }
+}
+
+@media only screen and (min-width : 568px) {
+  .r-ads-btn {
+    width: 125px;
+    height: 30px;
+    position: absolute;
+    top: 33px;
+    left: 50px;
+  }
+}
+
+@media only screen and (min-width : 667px) {
+  .r-ads-btn {
+      width: 140px;
+      height: 30px;
+      position: absolute;
+      top: 40px;
+      left: 55px;
+  }
+}
+
+@media only screen and (min-width : 736px) {
+  .r-ads-btn {
+      width: 147px;
+      height: 30px;
+      position: absolute;
+      top: 45px;
+      left: 69px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  .panel-heading select{
+    background-size: 3% 25%;
+  }
+
+  .ballot-filter-div{
+    display: inline-block;
+    width: 24%
+  }
+
+  .ballot-filter-div:nth-child(1){
+    width: 13%
+  }
+
+  /*.ballot-filter-div:nth-child(2){
+    padding-left: 5%;
+  }*/
+
+  .ballot-filter-div:nth-child(3), .ballot-filter-div:nth-child(4){
+    width: 28%
+  }
+
+  .ballot-filter label{
+    display: inline-block;
+    width: auto;
+    margin: 0;
+    padding-left: 0;
+  }
+
+  .selectid{
+    display: inline-block;
+    margin-left: 40%;
+    width: 40px;
+    background-size: 35% 100% !important;
+  }
+
+  .selectfrommonth{
+    width: 85px;
+    background-size: 19% 100% !important
+  }
+
+  .selectfromyear{
+    width: 50px;
+    background-size: 29% 100% !important
+  }
+
+  .ballot-filter input[type=radio]{
+    margin-top: 7px;
+  }
+
+  .all-games-div li{
+    background-position: 0% 50%;
+    background-size: 1% 50%
+  }
+
+  .helpcenter-nav select{
+    background: url('../../img/helpcenter/caret_down.png') no-repeat;
+    background-color: #DADFE1;
+    background-position: 97% 50%;
+    background-size: 3% 25%;
+  }
+
+  .breadcrumb-inner .wallet select{
+    background-size: auto 100%;
+    width: 100%;
+  }
+
+  .all-games-div{
+    width: 25%;
+    min-height: 250px;
+  }
+
+  .all-games-div li{
+    background-position: 3% 50%;
+    background-size: 5% 50%
+  }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  .panel-heading{
+    margin-top: 0;
+    margin-bottom: 0
+  }
+
+  .tab-pane .tab-info {
+    padding: 10px 25px;;
+  }
+
+  #tab3 .lotto-desc-p {
+    padding: 5px;
+    margin-left: 20PX;
+  }
+
+  #tab3 .lotto-desc {
+    padding: 5px;
+    font-weight: 700;
+    color: #fba601;
+    font-size: 16px;
+    margin-left: 20PX;
+  }
+
+  #calendar{
+    width: 267px;
+  }
+
+  #calendar table{
+    width: 100%;
+  }
+
+  #tab2 .lotto-desc {
+    padding: 0;
+    font-weight: 700;
+    color: #fba601;
+    font-size: 16px;
+    margin-left: 0;
+    margin-bottom: 5px
+  }
+
+  #tab2 .lotto-desc-p {
+      padding: 0px;
+      margin-bottom: 10px;
+      color: #ffffff;
+      margin-left: 0;
+  }
+
+  #calendar{
+    margin-top: 25%
+  }
+
+  .lotto-desc-wrapper{
+    margin-top: 12.5%;
+    margin-left: -3%;
+  }
+
+  .ballot-result th, .ballot-result td{
+    font-size: 14px;
+  }
+
+  .ballot-result td img {
+    width: 25px;
+    display: inline-block;
+  }
+
+  .ballot-result-balls {
+    width: auto;
+  }
+
+  .tab-pane .tab-info {
+    font-size: 15px;
+    line-height: 30px;
+  }
+
+  .footer-social-d{
+    display: inline-block;
+  }
+
+  .ballot-filter-div{
+    display: inline-block;
+    width: 19%
+  }
+
+  .ballot-filter-div:nth-child(1){
+    display: inline-block;
+    width: 13%
+  }
+
+  .ballot-filter-div:nth-child(3), .ballot-filter-div:nth-child(4){
+    display: inline-block;
+    width: 20%
+  }
+
+  .ballot-filter label{
+    display: inline-block;
+    width: auto;
+    margin: 0;
+    padding-left: 0;
+  }
+
+  .breadcrumb-inner #tab1 select{
+    height: auto;
+    padding: 5px;
+  }
+
+  .selectid{
+    display:inline-block;
+    margin-left: 23px;
+    margin-top: 3px;
+    width: 200px;
+    background-size: 15% 100% !important;
+    margin-bottom: -7px;
+  }
+
+  .selectfrommonth{
+    width: 135px;
+    background-size: 30% 100% !important
+  }
+
+  .selectfromyear{
+    width: 135px;
+    background-size: 30% 100% !important
+  }
+
+  .ballot-filter input[type=radio]{
+    margin-top: 7px;
+    margin-left: -20px
+  }
+
+  .all-games-div{
+    width: 25%;
+    min-height: 250px
+  }
+
+  .all-games-div li{
+    background-position: 0% 50%;
+    background-size: 7% 50%
+  }
+
+  .breadcrumb-inner .wallet .form-group{
+    width: 22%
+  }
+
+  .breadcrumb-inner .wallet select{
+    background-size: 15% 100%;
+    display: block;
+    width: 100%;
+  }
+
+  .acc-cont input[type=text]{
+    display: inline-block;
+    width: auto
+  }
+
+  .acc-info.acc-edit{
+    width: auto;
+    padding: 8px 10px !important;
+  }
+
+  .account-edit .botton{
+    text-align: center
+  }
+
+  .lotto-balls-wrapper{
+    padding-left: -15px;
+    padding-right: -15px;
+    background: none
+  }
+
+  .lotto-content{
+    width: 539px;
+    background: whitesmoke;
+    padding: 0;
+  }
+
+  .ball-wrapper .ball{
+    margin: 2px !important
+  }
+
+  .deposit-col{
+    padding: 0 40px;
+    width: 80%;
+  }
+
+  .deposit-withdraw .deposit, .deposit-withdraw .withdraw{
+    border: 1px solid #565656;
+    padding: 30px 31px 41px 28px;
+  }
+
+  .icomoon{
+    font-size: 90px;
+  }
+
+  .icon-bank:before{
+    font-size: 30px;
+  }
+
+  .deposit-withdraw .deposit-first, .deposit-withdraw .withdraw-first{
+    border-radius: 0 0 0 0;
+  }
+
+  .deposit-withdraw .deposit-second, .deposit-withdraw .withdraw-second{
+    border-radius: 0 0 0 0;
+  }
+
+  .provider-icon {
+    top: 12px;
+  }
+
+  .deposit-withdraw .deposit-first li:first-child, .deposit-withdraw .withdraw-first li:first-child{
+    border-radius: 0 0 0 0;
+  }
+
+  .deposit-withdraw .deposit-first li:last-child, .deposit-withdraw .withdraw-first li:last-child{
+    border-radius: 0 0 0 0;
+  }
+
+  .deposit-withdraw .deposit-second li:first-child, .deposit-withdraw .withdraw-second li:first-child{
+    border-radius: 0 0 0 0;
+  }
+
+  .deposit-withdraw .deposit-second li:last-child, .deposit-withdraw .withdraw-second li:last-child{
+    border-radius: 0 0 0 0;
+  }
+
+  .deposit-withdraw .deposit-second, .deposit-withdraw .withdraw-second{
+    border-radius: 0 0 0 0;
+  }
+
+  .deposit-withdraw .deposit ul li, .deposit-withdraw .withdraw ul li{
+    padding: 0;
+  }
+
+  .deposit-info, .withdraw-info{
+    font-size: 13px;
+  }
+
+  .r-ads-btn {
+    width: 138px;
+    height: 30px;
+    position: absolute;
+    top: 37px;
+    left: 55px;
+  }
+
+  .remo-form.remo-login, .remo-form.remo-forget {
+    padding: 15px 35px 25px 35px;
+    border: solid 1px #333;
+  }
+
+  .ballot-filter{
+    min-height: 359px;
+    padding: 0px 10px 10px
+  }
+
+  .r-tab2{
+    padding: 0 10px !important;
+  }
+
+  .lotto-res .tab-info{
+    padding: 20px 25px !important
+  }
+
+  .ballot-filter .form-inline {
+    padding: auto;
+  }
+
+  .ballot-filter .ballot-filter-div{
+    padding: 20px;
+  }
+
+  .ballot-filter-div:nth-child(4){
+    min-height: 205px;
+  }
+
+  @-moz-document url-prefix() {
+
+    .ballot-filter .ballot-filter-div {
+      padding: 20px 10px 20px 15px !important;
+    }
+
+    .ballot-filter-div:nth-child(4) {
+      min-height: 211px !important;
+    }
+
+    .selectfrommonth, .selectfromyear{
+      width: 135px;
+      background-size: 25% 100% !important;
+    }
+  }
+  .breadcrumb-inner .wallet .form-group, .breadcrumb-inner .wallet #None, .breadcrumb-inner .wallet #Noneb{
+    display: inline-block;
+    width: 28.5%
+  }
+  .breadcrumb-inner.deposit-page .form-group{
+    display: block;
+    width: 100%;
+  }
+  .breadcrumb-inner .wallet.account.acc-info .form-group{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .breadcrumb-inner .main-wallet .form-group{
+    width: 22.6%;
+  }
+  .breadcrumb-inner .wallet #None, .breadcrumb-inner .wallet #Noneb{
+    width: 100%
+  }
+
+}
+
+@media only screen and (min-width : 992px) {
+  .breadcrumb-inner .wallet select {
+    background-size: auto 40px;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  .all-games-div{
+    width: 12.5%;
+  }
+
+  .all-games-div li{
+    background-position: 0% 50%;
+    background-size: 7% 50%
+  }
+
+  .lotto-header {
+    width: 300px;
+    margin-top: 60px;
+    margin-left: 122px;
+    color: #fff;
+    border-top: 1px solid #808080;
+  }
+  .wallet .datepicker{
+    margin: 3px
+  }
+}

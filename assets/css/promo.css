@@ -1,0 +1,103 @@
+.panel.with-nav-tabs .panel-heading .promo-tabs li a {
+  font-size: 1em;
+  font-weight: 700;
+  border-radius: 20px;
+  color: #fffff;
+}
+.panel.with-nav-tabs .panel-heading .promo-tabs li a:hover {
+color: #ffffff;
+}
+.panel.with-nav-tabs .panel-heading .promo-tabs li.active a {
+    min-width: 100px;
+    text-align: center;
+    background: #fba601;
+      color:#111111;
+    border: 0;
+    text-shadow: none;
+}
+.promotion {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    padding: 10px 0;
+    max-width: 414px;
+    margin: 0 auto;
+}
+ .promotion > .inner {
+    -ms-flex: 0 1 auto;
+    -webkit-box-flex: 0;
+            flex: 0 1 auto;
+    position: relative;
+    background-color: #202020;
+    -webkit-box-shadow: inset 0 -2px 0 #ff9c00;
+            box-shadow: inset 0 -2px 0 #ff9c00;
+    border: solid 1px #323232;
+}
+.promotion > .inner > a > img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.promotion > .inner > .content {
+    display: table;
+    padding: 30px 20px 88px 20px;
+}
+.promotion > .inner > .content > h3 {
+    margin: 0px 0 20px 0;
+}
+.promotion h3 {
+    font-size: 24px;
+    color: #fba601;
+}
+.promotion h3 > a{
+  color: inherit;
+  text-decoration: none;
+}
+.promotion > .inner > .content > p {
+    margin: 0;
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+}
+.promotion p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #fff;
+    min-height: 80px;
+}
+.promotion > .inner > .cta {
+   position: absolute;
+   bottom: 45px;
+   left: 0;
+   right: 0;
+   text-align: left;
+   padding: 0px 15px;
+}
+.promotion > .inner > .cta > .btn {
+    display: inline-block;
+}
+.promotion .btn {
+    height: 40px;
+    border-radius: 20px;
+    padding: 3px 14px 7px 14px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    border-width: 2px;
+}
+.btn.wide {
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.btn.btn-primary {
+    background-color: #fba601;
+    color: #111;
+    border-color: #fba601;
+}
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
