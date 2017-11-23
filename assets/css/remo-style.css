@@ -746,13 +746,12 @@ margin-top: 15px;
 }
 
 .helpcenter-section .tab-pane{
-  padding-top: 0px;
+  padding-top: 15px;
   padding-bottom: 15px;
 }
 
 .helpcenter-section .tab-pane h4{
   margin-top: 15px;
-  cursor: pointer;
 }
 
 .flexslider{

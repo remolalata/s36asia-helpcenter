@@ -19,7 +19,6 @@ color: #ffffff;
     display: -ms-flexbox;
     display: -webkit-box;
     display: flex;
-    padding: 10px 0;
     max-width: 414px;
     margin: 0 auto;
 }
@@ -58,7 +57,6 @@ color: #ffffff;
 .promotion > .inner > .content > p {
     margin: 0;
     text-align: justify;
-    -moz-text-align-last: center;
     text-align-last: center;
 }
 .promotion p {

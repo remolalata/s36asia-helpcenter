@@ -912,7 +912,13 @@ $(document).ready(function () {
         animationSpeed: '1000',
         controlNav: false,
         directionNav: false,
-        touch: false
+        touch: false,
+      });
+
+      $('.mobile-logo-banner-text .flexslider').flexslider({
+        animation: "slide",
+        direction: 'vertical',
+        directionNav: false
       });
 
       $('.top-games .flexslider').flexslider({
@@ -1074,12 +1080,44 @@ $('.one-winner .flexslider').flexslider({
   });
 
   $('.casino-show-more a').click(function() {
-    if($('.casino-tabs li.active a').attr('href') == "#ctab2"){
+    if($('.new-game-tab ul li.active a').attr('href') == "#ctab2"){
       $('a[href="#ctab3"]').trigger('click');
+      $(this).html('顯示百家樂');
     }else{
-      var link = $('.casino-tabs li.active a').attr('href');
+      var link = $('.new-game-tab ul li.active a').attr('href');
       $('a[href="#ctab2"]').trigger('click');
+      $(this).html('顯示其他遊戲');
     }
+  })
+
+  $('.deposit-offers .offers').hover(function() {
+    $(this).find('img').attr('src', 'assets/img/search-hover.png');
+  }, function() {
+    $(this).find('img').attr('src', 'assets/img/search.png');
+  })
+
+  $('.banner-slider').flexslider({
+    animation: "slide",
+    slideshowSpeed: 3000,
+    animationSpeed: 1000,
+  });
+
+  $('.info-icon').hover(function() {
+    $(this).addClass('hover');
+  }, function() {
+    $(this).removeClass('hover');
+  })
+
+  $('.mobile-logo-banner-text .close').click(function(){
+    $('.mobile-logo-banner-text').addClass('unshow');
+    $('.mobile-logo-banner-text-trigger a').toggle();
+
+    });
+
+  $('.mobile-logo-banner-text-trigger a').click(function() {
+    $('.mobile-logo-banner-text').removeClass('unshow');
+
+    $(this).toggle();
   })
 
 });
@@ -1248,8 +1286,9 @@ $(function() {
       }
     });
 });
-
-
+$(window).load(function() {
+  $('.loading').css('display', 'none')
+})
 $('#datepicker-from').datepicker({
     autoclose: true
 });
